@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/linearLayout1"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:text="Get Location "
+            android:layout_centerHorizontal="true"/>
+
+          <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:text="Geo Location "
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/geoaddress"
+            android:textSize="20dp"
+            android:layout_below="@+id/linearLayout1"
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastlocation"
+            android:textSize="20dp"
+            android:layout_below="@id/geoaddress"
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/distance"
+            android:textSize="20dp"
+            android:layout_below="@id/lastlocation"
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"/>
+
+</RelativeLayout>

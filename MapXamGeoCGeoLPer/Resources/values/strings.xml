@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MapXamGeoCGeoLPer</string>
+    <string name="action_settings">Settings</string>
+	<string name="location_permission_title">LocationPermission</string>
+	<string name="location_permission_message">This Permission is need to open location on map</string>
+	<string name="cancel">CANCEL</string>
+	<string name="ok">OK</string>
+	<string name="grant">GRANT</string>
+</resources>
